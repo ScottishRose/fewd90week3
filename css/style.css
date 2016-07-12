@@ -1,22 +1,144 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Georgia, sans-serif;
   font-size: 15px;
   color: #222222;
   line-height: 1.3;
 }
-
-/* Utility clearing classes you may use. */
-.clear {
-  clear: both;
+header{
+  text-decoration: none;
+  color: #eeeeee;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: black;
+  border: solid 1px black;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+.menu {
+  float: left;
+  padding-top: 35px;
+  font-size: 15px;
+}
+.hero { 
+background-image: url("../images/photobanner.png"); 
+background-size: cover;
+width: 100%;
+height: 600px;
+clear: both;
+}
+a:hover {
+  background-color: #1FA2E1;
+  transition: all 0.5s;
+}
+a {
+  color: #1FA2E1;
+  text-decoration: none;
+  text-align: auto;
+}
+div a {
+  color: #eeeeee;
+  padding: 30px;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+}
+img {
+  float: right;
+  padding: 0;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+h1 {
+  font-family: "Permanent Marker";
+  float: left;
+  margin-right: 15px;
+  margin-top: 20px;
+  font-size: 24px;
+}
+blockquote {
+  border: solid 3px #eeeeee;
+  width: 960px;
+  font-style: italic;
+  font-size: 20px;
+  color: #222222;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 35px;
+}
+.box {
+  width:290px;
+  height:290px;
+  float:left;
+  border: 3px solid #eeeeee;
+  box-sizing: border-box;
 }
 
-.clearfix:after {
+.box p {
+  padding-bottom: 20px;
+}
+
+#box1, #box2, #box3 {
+  float: left;
+  width:100%;
+  clear:both;
+}
+article {
+  display: inline-block;
+  float: left;
+  width: 320px;
+  clear: both;
+}
+h2 {
+  font-family: "Permanent Marker";
+  font-color: #cccccc;
+  clear: both;
+}
+section.footer {
+  background-color: #222222;
+  display: inline-block;
+
+}
+li {
+  text-decoration: none;
+  color: #aaaaaa;
+  border-bottom: 1px dashed #666666;
+}
+p {
+  color: #222222;
+
+}
+span {
+  color: #1FA2E1;
+}
+.widget1, .widget2, .widget3 {
+  text-align: left;
+  clear: both;
+  color: #aaaaaa;
+  width: 210px;
+}
+.widget2 {
+  width: 400px;
+}
+.copy {
+  text-align: left;
+  color: #aaaaaa;
+}
+.bottom {
+  text-align: right;
+  color: #aaaaaa;
+  clear: both;
+}
+.clearfix:after { 
   display: block;
   clear: both;
-  content: "";
-}
+  content:" ";
+ }
+
+

@@ -31,7 +31,7 @@ Header BG, Footer BG, Body Text
 #222222;
 
 Homebox photo border, blockquote border
-#eeeeee
+#eeeeee 3px
 
 Footer text, footer
 #aaaaaa
